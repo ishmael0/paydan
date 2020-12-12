@@ -16,10 +16,81 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="ClientApp\.vs\ProjectSettings.json" />
+    <Content Include="ClientApp\.vs\VSWorkspaceState.json" />
+    <Content Include="ClientApp\e2e\tsconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ClientApp\.vs\ClientApp\config\applicationhost.config" />
+    <None Include="ClientApp\.vs\slnx.sqlite" />
+    <None Include="ClientApp\dist\out-tsc\e2e\src\app.e2e-spec.js" />
+    <None Include="ClientApp\dist\out-tsc\e2e\src\app.e2e-spec.js.map" />
+    <None Include="ClientApp\dist\out-tsc\e2e\src\app.po.js" />
+    <None Include="ClientApp\dist\out-tsc\e2e\src\app.po.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\admin\admin.module.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\admin\admin.module.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\app.component.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\app.component.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\app.module.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\app.module.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\dependency\classess.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\dependency\classess.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\dependency\components.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\dependency\components.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\dependency\dependency.module.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\dependency\dependency.module.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\dependency\pipes.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\dependency\pipes.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\home\contact\contact.component.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\home\contact\contact.component.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\home\home.module.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\home\home.module.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\home\home\home.component.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\home\home\home.component.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\home\index\index.component.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\home\index\index.component.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendee\pay\pay.component.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendee\pay\pay.component.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendee\vendee.module.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendee\vendee.module.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendee\vendee\vendee.component.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendee\vendee\vendee.component.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendor\index\index.component.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendor\index\index.component.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendor\invoice\invoice.component.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendor\invoice\invoice.component.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendor\vendor.module.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendor\vendor.module.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendor\vendor\vendor.component.js" />
+    <None Include="ClientApp\dist\out-tsc\src\app\vendor\vendor\vendor.component.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\environments\environment.js" />
+    <None Include="ClientApp\dist\out-tsc\src\environments\environment.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\environments\environment.prod.js" />
+    <None Include="ClientApp\dist\out-tsc\src\environments\environment.prod.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\main.js" />
+    <None Include="ClientApp\dist\out-tsc\src\main.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\polyfills.js" />
+    <None Include="ClientApp\dist\out-tsc\src\polyfills.js.map" />
+    <None Include="ClientApp\dist\out-tsc\src\test.js" />
+    <None Include="ClientApp\dist\out-tsc\src\test.js.map" />
+    <None Include="ClientApp\e2e\protractor.conf.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.0" NoWarn="NU1605" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.0" NoWarn="NU1605" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="5.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\e2e\src\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="ClientApp\e2e\src\app.po.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientApp\.vs\ClientApp\v16\" />
   </ItemGroup>
 
 </Project>
