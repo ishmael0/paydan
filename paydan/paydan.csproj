@@ -5,9 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ClientApp\**" />
     <Compile Remove="NewFolder\**" />
+    <Content Remove="ClientApp\**" />
     <Content Remove="NewFolder\**" />
+    <EmbeddedResource Remove="ClientApp\**" />
     <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="ClientApp\**" />
     <None Remove="NewFolder\**" />
   </ItemGroup>
 
